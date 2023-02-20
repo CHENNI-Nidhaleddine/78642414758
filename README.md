@@ -1,35 +1,35 @@
 <!-- GETTING STARTED -->
 ## Description:
-here
+Dans le cadre du premier TP du projet de spécialité, nous avons implémenté différents algorithmes de détection de communautés, notamment la version améliorée de Louvain qui initialise les communautés par des cliques, suivi de Semi-synchronous-LPA avec ses 3 variantes : LPA-prec, LPA-max, LPA-prec-max. 
+Pour la démonstration de nos algorithmes, nous avons utilisé Streamlit, une bibliothèque Python qui permet de créer des applications web interactives à l'aide de scripts Python. L’exécution de ce code va permettre d'interagir avec l’application mise en oeuvre en local.
 
-### Folders:
+### Dossiers:
 #### /pages: 
-contains the implementation of three algos (louvain, louvain-cliques, SS-LPA)
+contient l'implémentation des 3 algorithmes
 #### /data:
-contains the datasets (karate,dolphins,) and the generated gml file by 
+contient les datasets réels 
 #### /Sources:
-Contains C++ code to generate benchmark for synthetic networks
+contient le code c++ pour la génération du benchmark des dataset synthétiques 
 <!-- GETTING STARTED -->
 ## Getting Started
+Pour avoir une copie en local
 
-To get a local copy up and running follow these simple steps.
+### Prerequis
 
-### Prerequisites
-
-Before you begin you need to have python installed
+Python
 
 ### Installation
 
-1. Clone the repo and cd to it
+1. Cloner le repo
    ```sh
     $ git clone https://github.com/CHENNI-Nidhaleddine/TP1_NUTONOMY
    ```
-2. Install Requirements 
+2. Installer les Requirements 
    ```sh
     $ pip install -r requirements.txt 
    ```
 
-## How to run?
+## Execution 
    ```sh
     $ streamlit run Main.py 
    ```
