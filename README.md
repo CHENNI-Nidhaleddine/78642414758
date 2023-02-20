@@ -1,3 +1,12 @@
+<!-- GETTING STARTED -->
+## Description:
+here
+
+### Folders:
+#### /pages: 
+contains the implementation of three algos (louvain, louvain-cliques, SS-LPA)
+#### /data:
+contains the datasets (karate,dolphins,) and the generated gml file by 
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -17,4 +26,9 @@ Before you begin you need to have python installed
 2. Install Requirements 
    ```sh
     $ pip install -r requirements.txt 
+   ```
+
+## How to run?
+   ```sh
+    $ streamlit run Main.py 
    ```
