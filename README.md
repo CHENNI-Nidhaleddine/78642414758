@@ -7,7 +7,8 @@ here
 contains the implementation of three algos (louvain, louvain-cliques, SS-LPA)
 #### /data:
 contains the datasets (karate,dolphins,) and the generated gml file by 
-
+#### /Sources:
+Contains C++ code to generate benchmark for synthetic networks
 <!-- GETTING STARTED -->
 ## Getting Started
 
